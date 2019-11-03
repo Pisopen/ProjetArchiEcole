@@ -13,7 +13,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
  
-public class Controler implements Initializable {
+public class ControlerTeacher implements Initializable {
  
    @FXML
    private Button addTeacher;
