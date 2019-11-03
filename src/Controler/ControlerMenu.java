@@ -2,6 +2,9 @@ package Controler;
  
 import java.io.IOException;
 import java.net.URL;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.ResourceBundle;
  
 import javafx.event.ActionEvent;
@@ -16,7 +19,7 @@ import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
  
-public class ControlerTeacher implements Initializable {
+public class ControlerMenu implements Initializable {
  
    @FXML
    private Button addTeacher;
@@ -34,25 +37,17 @@ public class ControlerTeacher implements Initializable {
    public void initialize(URL location, ResourceBundle resources) { 
        // TODO (don't really need to do anything here).
    }
-   
-   
-   public void backToMenu(ActionEvent event) throws IOException {
-	   Parent menuTeacherParent = FXMLLoader.load(getClass().getResource("/View/MenuIHM.fxml"));
-	   Scene menuViewScene = new Scene(menuTeacherParent);
+ 
+   // When user click on myButton
+   // this method will be called.
+   public void switchaddTeacherScene(ActionEvent event) throws IOException {
+	   Parent deleteTeacherParent = FXMLLoader.load(getClass().getResource("/View/TeacherIHM.fxml"));
+	   Scene deleteViewScene = new Scene(deleteTeacherParent);
 	   
 	   Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
 	   
-	   window.setScene(menuViewScene);
+	   window.setScene(deleteViewScene);
 	   window.show();
-   }
-   
-   // When user click on myButton
-   // this method will be called.
-   public void addTeacher(ActionEvent event) {
-	   
-        // Show in VIEW
-        output.setText(inputName.getText() +" "+ inputSurname.getText());
-
    }
   
 }
