@@ -39,6 +39,8 @@ public class Controler implements Initializable {
         // Show in VIEW
         output.setText(inputName.getText() +" "+ inputSurname.getText());
       
+        
+        
    }
   
 }
