@@ -39,7 +39,7 @@ public class MyApplication  extends Application {
     	
         // Read file fxml and draw interface.    	
         Parent root = FXMLLoader.load(getClass()
-                .getResource("/View/TeacherIHM.fxml"));
+                .getResource("/View/MenuIHM.fxml"));
  
         primaryStage.setTitle("My Application");
         primaryStage.setScene(new Scene(root));

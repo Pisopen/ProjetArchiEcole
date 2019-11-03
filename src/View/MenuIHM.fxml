@@ -6,10 +6,10 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="500" prefWidth="500" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controler.ControlerMenu">
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controler.ControlerMenu">
   <children>
-    <Text layoutX="145.0" layoutY="172.0" scaleX="2.8659377847195104" scaleY="3.19285364659814" strokeType="OUTSIDE" strokeWidth="0.0" text="HelloWorld" />
-    <Label layoutX="101.0" layoutY="64.0" text="ISTY GESTION ENSEIGNANT" />
-    <Button fx:id="addTeacher" layoutX="115.0" layoutY="242.0" mnemonicParsing="false" onAction="#switchaddTeacherScene" text="Ajouter Enseignant" />
+    <Button fx:id="addTeacher" layoutX="27.0" layoutY="240.0" mnemonicParsing="false" onAction="#switchaddTeacherScene" text="Ajouter Enseignant" textFill="BLACK" wrapText="false" />
+    <Text fill="#cc0000" layoutX="181.0" layoutY="95.0" scaleX="2.8659377847195104" scaleY="3.19285364659814" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestion Enseignement Isty" />
+    <Label layoutX="202.0" layoutY="167.0" prefHeight="20.999908447265625" text="Choisir une action" />
   </children>
 </AnchorPane>
