@@ -12,8 +12,8 @@
     <Label layoutX="61.0" layoutY="78.0" prefWidth="266.0" text="Entrez le nom et l'id de l'UE à supprimer" />
     <TextField layoutX="61.0" layoutY="126.0" prefWidth="200.0" />
     <TextField layoutX="61.0" layoutY="198.0" prefWidth="91.0" />
-    <Label layoutX="61.0" layoutY="101.0" text="Nom" />
-    <Label layoutX="61.0" layoutY="172.0" text="ID" />
+    <Label layoutX="61.0" layoutY="110.0" text="Nom" />
+    <Label layoutX="63.0" layoutY="182.0" text="ID" />
     <Button fx:id="backToMenu" layoutX="380.0" layoutY="460.0" mnemonicParsing="false" onAction="#backToMenu" text="Retour au menu" />
     <Button layoutX="61.0" layoutY="259.0" mnemonicParsing="false" text="Valider" />
     <Text layoutX="61.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supprimer une Unité d'Enseignement">

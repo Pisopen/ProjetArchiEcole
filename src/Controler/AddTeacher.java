@@ -48,9 +48,9 @@ public class AddTeacher implements Initializable {
    
    // When user click on myButton
    // this method will be called.
-   public void addTeacher(ActionEvent event) {	   
+//   public void addTeacher(ActionEvent event) {	   
         // Show in VIEW
-        output.setText(inputName.getText() +" "+ inputSurname.getText());
-   }
+//        output.setText(inputName.getText() +" "+ inputSurname.getText());
+//   }
   
 }
