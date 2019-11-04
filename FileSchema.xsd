@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0"
+xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<!-- <xs:element name="Persone"> -->
+	<xs:complexType name="Personne">
+		<xs:sequence>
+			<xs:element name="nom" type="xs:string" minOccurs="0" />
+			<xs:element name="prenom" type="xs:string" minOccurs="0" />
+			<xs:element name="mail" type="xs:string" minOccurs="0" />
+			<xs:element name="statut" type="xs:string" minOccurs="0" ></xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" use="required" />
+	</xs:complexType>
+	
+	<xs:complexType name="UniteEnseignement">
+		<xs:sequence>
+			<xs:element name="code" type="xs:string" minOccurs="0" />
+			<xs:element name="intitule" type="xs:string" minOccurs="0" />
+			<xs:element name="cours" type="xs:float" minOccurs="0" />
+			<xs:element name="td" type="xs:float" minOccurs="0" />
+			<xs:element name="tp" type="xs:float" minOccurs="0" />
+			<xs:element name="valeur" type="xs:float" minOccurs="0" />
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" use="required" />
+	</xs:complexType>
+	 
+	<xs:complexType name="Annee">
+		<xs:sequence>>
+			<xs:element name="annee" type="xs:string" minOccurs="0" />
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" use="required" />
+	</xs:complexType>
+</xs:schema>
