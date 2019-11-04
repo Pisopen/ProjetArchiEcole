@@ -9,6 +9,11 @@ Environment needed :
 To create .jar executable file : 
  - File -> Export -> Java -> Runnable JAR File
 
+DONE :
+ - Data base connection established (voir avec O'nicé Coelho)
+ - IHM for Menu working 
+ - Button back to menu 
+
 TO DO :
   - Connect IHM + Controler to Model
   - Button "Créer année" don't work yet
@@ -17,5 +22,6 @@ TO DO :
   - Req-eco-08
   - Req-eco-09
   - Req-eco-10
+  - Pas de base de données
 
   
