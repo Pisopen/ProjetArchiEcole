@@ -17,8 +17,6 @@ DONE :
 
 TO DO :
   - Connect IHM + Controler to Model
-  - Button "Créer année" don't work yet
-  - Modify IHM to match the model
   - Req-eco-01 database side
   - Req-eco-02
   - Req-eco-03 database side
