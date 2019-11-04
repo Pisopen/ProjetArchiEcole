@@ -8,3 +8,14 @@ Environment needed :
 
 To create .jar executable file : 
  - File -> Export -> Java -> Runnable JAR File
+
+TO DO :
+  - Connect IHM + Controler to Model
+  - Button "Créer année" don't work yet
+  - Modify IHM to match the model
+  - Req-eco-07
+  - Req-eco-08
+  - Req-eco-09
+  - Req-eco-10
+
+  
