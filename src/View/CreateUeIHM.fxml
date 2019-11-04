@@ -13,13 +13,21 @@
         <Font name="System Bold Italic" size="15.0" />
       </font>
     </Text>
-    <TextField layoutX="56.0" layoutY="115.0" prefWidth="53.0" />
-    <TextField layoutX="56.0" layoutY="168.0" prefWidth="200.0" />
-    <TextField layoutX="56.0" layoutY="229.0" prefWidth="53.0" />
+    <TextField fx:id="inputId" layoutX="56.0" layoutY="115.0" prefWidth="53.0" />
+    <TextField fx:id="inputCode" layoutX="56.0" layoutY="168.0" prefWidth="53.0" />
+    <TextField fx:id="inputName" layoutX="56.0" layoutY="229.0" prefWidth="160.0" />
     <Label layoutX="56.0" layoutY="99.0" text="ID" />
-    <Label layoutX="56.0" layoutY="152.0" text="Nom" />
-    <Label layoutX="56.0" layoutY="213.0" text="Point" />
-    <Button layoutX="56.0" layoutY="274.0" mnemonicParsing="false" text="Ajouter" />
+    <Label layoutX="56.0" layoutY="152.0" text="Code" />
+    <Label layoutX="56.0" layoutY="213.0" text="Intitulé" />
+    <Button fx:id="addUe" layoutX="216.0" layoutY="338.0" mnemonicParsing="false" onAction="#addUe" text="Ajouter" />
     <Button fx:id="backToMenu" layoutX="380.0" layoutY="465.0" mnemonicParsing="false" onAction="#backToMenu" text="Retour au menu" />
+    <TextField fx:id="inputCours" layoutX="56.0" layoutY="277.0" prefWidth="160.0" />
+    <TextField fx:id="inputTp" layoutX="256.0" layoutY="168.0" prefWidth="200.0" />
+    <TextField fx:id="inputTd" layoutX="256.0" layoutY="115.0" prefWidth="200.0" />
+    <TextField fx:id="inputValue" layoutX="256.0" layoutY="228.0" prefWidth="200.0" />
+    <Label layoutX="256.0" layoutY="152.0" text="TP" />
+    <Label layoutX="56.0" layoutY="261.0" text="Cours" />
+    <Label layoutX="256.0" layoutY="212.0" text="Valeur" />
+    <Label layoutX="256.0" layoutY="99.0" text="TD" />
   </children>
 </AnchorPane>

@@ -9,16 +9,20 @@
 <AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controler.AddTeacher">
   <!-- TODO Add Nodes -->
   <children>
-    <Button fx:id="addTeacher" layoutX="61.0" layoutY="240.0" mnemonicParsing="false" text="Submit" />
+    <Button fx:id="addTeacher" layoutX="61.0" layoutY="303.0" mnemonicParsing="false" onAction="#addTeacher" text="Submit" />
     <TextField fx:id="inputName" layoutX="61.0" layoutY="136.0" prefWidth="200.0" />
     <Label layoutX="61.0" layoutY="115.0" prefHeight="21.0" text="Nom" />
     <Label layoutX="61.0" layoutY="172.0" prefHeight="21.0" text="Prénom" />
     <TextField fx:id="inputSurname" layoutX="61.0" layoutY="193.0" prefWidth="200.0" />
     <Button id="addTeacher" fx:id="backMenu" layoutX="380.0" layoutY="431.0" mnemonicParsing="false" onAction="#backToMenu" text="Retour au menu" />
-    <Text layoutX="61.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Créer un Enseignant">
+    <Text layoutX="61.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Créer un Enseignant">
       <font>
         <Font name="System Bold Italic" size="15.0" />
       </font>
     </Text>
+    <TextField id="id" fx:id="inputId" layoutX="61.0" layoutY="78.0" prefWidth="200.0" />
+    <TextField fx:id="inputMail" layoutX="61.0" layoutY="250.0" prefWidth="200.0" />
+    <Label layoutX="61.0" layoutY="57.0" prefHeight="21.0" text="ID" />
+    <Label layoutX="61.0" layoutY="229.0" prefHeight="21.0" text="Mail" />
   </children>
 </AnchorPane>

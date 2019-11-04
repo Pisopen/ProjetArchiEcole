@@ -46,6 +46,11 @@ public class Menu implements Initializable {
 		switchScene(event, filePath);
 	}
 	
+	public void switchCreateYearScene(ActionEvent event) throws IOException {
+		String filePath ="/View/CreateAE.fxml";
+		switchScene(event, filePath);
+	}
+	
 	
 	public void switchScene(ActionEvent event, String filePath) throws IOException {		
 		Parent addTeacherParent = FXMLLoader.load(getClass().getResource(filePath));

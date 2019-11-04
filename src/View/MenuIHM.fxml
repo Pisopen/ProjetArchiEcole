@@ -8,13 +8,13 @@
 
 <AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controler.Menu">
   <children>
-    <Button fx:id="addTeacher" layoutX="27.0" layoutY="240.0" mnemonicParsing="false" onAction="#switchaddTeacherScene" prefWidth="154.0" text="Ajouter un Enseignant" textFill="BLACK" wrapText="false" />
+    <Button layoutX="27.0" layoutY="240.0" mnemonicParsing="false" onAction="#switchaddTeacherScene" prefWidth="154.0" text="Ajouter un Enseignant" textFill="BLACK" wrapText="false" />
     <Text fill="#cc0000" layoutX="181.0" layoutY="95.0" scaleX="2.8659377847195104" scaleY="3.19285364659814" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestion Enseignement Isty" />
     <Label layoutX="202.0" layoutY="167.0" prefHeight="20.999908447265625" text="Choisir une action" />
     <Button fx:id="createUE" layoutX="202.0" layoutY="240.0" mnemonicParsing="false" onAction="#switchCreateUeScene" prefWidth="116.0" text="Créer une UE" />
     <Button layoutX="27.0" layoutY="286.0" mnemonicParsing="false" onAction="#switchDeleteTeacherScene" text="Supprimer un Enseignant" />
-    <Button layoutX="202.0" layoutY="287.0" mnemonicParsing="false" prefWidth="116.0" onAction="#switchDeleteUEScene" text="Supprimer un UE" />
-    <Button layoutX="338.0" layoutY="286.0" mnemonicParsing="false" prefWidth="141.0" onAction="#switchDeleteAEScene" text="Supprimer une année" />
-    <Button layoutX="338.0" layoutY="241.0" mnemonicParsing="false" prefWidth="141.0" text="Créer une année" />
+    <Button layoutX="202.0" layoutY="287.0" mnemonicParsing="false" onAction="#switchDeleteUEScene" prefWidth="116.0" text="Supprimer un UE" />
+    <Button layoutX="338.0" layoutY="286.0" mnemonicParsing="false" onAction="#switchDeleteAEScene" prefWidth="141.0" text="Supprimer une année" />
+    <Button layoutX="338.0" layoutY="241.0" mnemonicParsing="false" onAction="#switchCreateYearScene" prefWidth="141.0" text="Créer une année" />
   </children>
 </AnchorPane>
