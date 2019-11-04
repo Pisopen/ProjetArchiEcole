@@ -13,11 +13,18 @@ To create .jar executable file :
 DONE :
  - IHM for Menu working 
  - Button back to menu 
+ - Model 
 
 TO DO :
   - Connect IHM + Controler to Model
   - Button "Créer année" don't work yet
   - Modify IHM to match the model
+  - Req-eco-01 database side
+  - Req-eco-02
+  - Req-eco-03 database side
+  - Req-eco-04
+  - Req-eco-05 database side
+  - Req-eco-06
   - Req-eco-07
   - Req-eco-08
   - Req-eco-09
