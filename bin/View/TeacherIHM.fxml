@@ -4,8 +4,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="500" prefWidth="500" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controler.AddTeacher">
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controler.AddTeacher">
   <!-- TODO Add Nodes -->
   <children>
     <Button fx:id="addTeacher" layoutX="196.0" layoutY="397.0" mnemonicParsing="false" onAction="#addTeacher" text="Submit" />
@@ -15,5 +16,10 @@
     <Label layoutX="125.0" layoutY="132.0" prefHeight="21.0" text="Prénom" />
     <TextField fx:id="inputSurname" layoutX="125.0" layoutY="162.0" prefWidth="200.0" />
     <Button id="addTeacher" fx:id="backMenu" layoutX="351.0" layoutY="431.0" mnemonicParsing="false" onAction="#backToMenu" text="Retour au menu" />
+    <Text layoutX="125.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Créer un Enseignant">
+      <font>
+        <Font name="System Bold Italic" size="15.0" />
+      </font>
+    </Text>
   </children>
 </AnchorPane>

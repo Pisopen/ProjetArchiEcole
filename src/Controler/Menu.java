@@ -31,6 +31,21 @@ public class Menu implements Initializable {
 		switchScene(event, filePath);
 	}
 	
+	public void switchDeleteTeacherScene(ActionEvent event) throws IOException {
+		String filePath ="/View/DeleteTeacher.fxml";
+		switchScene(event, filePath);
+	}
+	
+	public void switchDeleteAEScene(ActionEvent event) throws IOException {
+		String filePath ="/View/DeleteAE.fxml";
+		switchScene(event, filePath);
+	}
+	
+	public void switchDeleteUEScene(ActionEvent event) throws IOException {
+		String filePath ="/View/DeleteUE.fxml";
+		switchScene(event, filePath);
+	}
+	
 	
 	public void switchScene(ActionEvent event, String filePath) throws IOException {		
 		Parent addTeacherParent = FXMLLoader.load(getClass().getResource(filePath));
@@ -40,6 +55,5 @@ public class Menu implements Initializable {
 
 		window.setScene(addViewScene);
 		window.show();
-	}
-  
+	}  
 }

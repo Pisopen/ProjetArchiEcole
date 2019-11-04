@@ -8,7 +8,7 @@
 
 <AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controler.CreateUe">
   <children>
-    <Text layoutX="56.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Créer un Unité d'Enseignement">
+    <Text layoutX="56.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Créer une Unité d'Enseignement">
       <font>
         <Font name="System Bold Italic" size="15.0" />
       </font>
