@@ -17,7 +17,7 @@ public class Utils {
         {
             //Create JAXB Context
             JAXBContext jaxbContext = JAXBContext.newInstance(Personne.class);
-             
+            
             //Create Marshaller
             Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
  
