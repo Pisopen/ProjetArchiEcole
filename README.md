@@ -10,7 +10,6 @@ To create .jar executable file :
  - File -> Export -> Java -> Runnable JAR File
 
 DONE :
- - Data base connection established (voir avec O'nicé Coelho)
  - IHM for Menu working 
  - Button back to menu 
 
